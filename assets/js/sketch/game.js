@@ -10,11 +10,7 @@ let leaderboards = document.querySelector('.leaderboards');
 let mainmenu = document.querySelector('.mainmenu');
 let ok = document.querySelector('.ok');
 function setup(){
-	if(windowWidth < 820){
-		cgw = windowWidth;
-	}else{
-		cgw = 445.5;
-	}
+	cgw = 445.5;
 	if(!localStorage.getItem('score')){
 		localStorage.setItem('score', '0');
 	}
