@@ -1,0 +1,62 @@
+<!-- 
+| javascript flappy bird
+| using pure javascript
+| copyrigth inson
+-->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>Javascript Flappy Bird</title>
+
+	 <!-- Encoding -->
+
+     <meta charset="UTF-8" />
+
+    <!-- Sketch Css -->
+
+	<link rel="stylesheet" type="text/css" href="assets/css/sketch.css">
+
+	<!-- Sketch Icon -->
+
+	<link rel="icon" href="assets/img/icon/flappy.ico">
+	
+	
+	
+
+</head>
+
+<body>
+	
+	<!-- Canvas -->
+
+	<center>
+
+	<div id="canvas-parent">
+		<button class="rate" onclick="location.href='https://github.com/Jwenson/javascript-flappy-bird'"></button>
+		<button class="playbtn" onclick="fplaybtn();"></button>
+		<button class="leaderboard" onclick="location.href='https://flappybird.io/leaderboard/'"></button>
+		<button class="tryagain" onclick="location.reload();"></button>
+		<button class="leaderboards" onclick="location.href='https://flappybird.io/leaderboard/'"></button>
+		<button class="mainmenu" onclick="location.href = 'index.html'"></button>
+		<button class="ok" onclick="location.href='https://github.com/Jwenson/javascript-flappy-bird'"></button>
+	</div>
+
+	</center>
+	<audio class="theme" autoplay="autoplay" loop="loop"><source src="resources/sound/theme.mp3" type="audio/ogg"></audio>
+	<audio class="tap"><source src="resources/sound/wing.ogg" type="audio/ogg"></audio>
+	<audio class="hit"><source src="resources/sound/hit.ogg" type="audio/ogg"></audio>
+	<audio class="die"><source src="resources/sound/die.ogg" type="audio/ogg"></audio>
+	<audio class="point"><source src="resources/sound/point.ogg" type="audio/ogg"></audio>
+	<!-- Sketch -->
+	<script type="text/javascript" src="assets/js/game/loaders.js"></script>
+	<script type="text/javascript" src="assets/js/sketch/game.js"></script>
+	
+	<!-- Dont change inscyo libraries -->
+	<script type="text/javascript" src="assets/js/sketch/addons/insyco.js"></script>
+	
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+@font-face{
+	font-family: 'flappy';
+	src: url('../fonts/flappybird.ttf');
+}
+
+html, body{
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+#canvas-parent{
+	position: relative;
+}
+.rate{
+	position: absolute;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px; 
+	border: none; 
+	height: 40px; 
+	width: 67px;
+	display: none;
+	outline: none;
+	cursor: pointer;
+}
+.playbtn{
+	position: absolute;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px; 
+	border: none; 
+	height: 40px; 
+	width: 67px;
+	display: none;
+	outline: none;
+	cursor: pointer;
+}
+.leaderboard{
+	position: absolute;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px; 
+	border: none; 
+	height: 40px; 
+	width: 67px;
+	display: none;
+	outline: none;
+	cursor: pointer;
+}
+.tryagain{
+	position: absolute;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px; 
+	border: none; 
+	height: 45px; 
+	width: 70px;
+	display: none;
+	outline: none;
+	cursor: pointer;
+}
+.leaderboards{
+	position: absolute;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px; 
+	border: none; 
+	height: 45px; 
+	width: 70px;
+	display: none;
+	outline: none;
+	cursor: pointer;
+}
+.mainmenu{
+	position: absolute;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px; 
+	border: none; 
+	height: 30px; 
+	width: 70px;
+	display: none;
+	outline: none;
+	cursor: pointer;
+}
+.ok{
+	position: absolute;
+	background-color: transparent;
+	padding: 0px;
+	margin: 0px; 
+	border: none; 
+	height: 30px; 
+	width: 70px;
+	display: none;
+	outline: none;
+	cursor: pointer;
+}
