@@ -32,7 +32,7 @@ function createCanvas(w, h, parent){
 	const ctxp = document.querySelector('#canvas-parent');
 	const crt = document.createElement('canvas');
 	crt.setAttribute('id', 'canvas');
-	document.querySelector(parent).appendChild(crt);
+	ctxp.appendChild(crt);
 	const canvas = document.querySelector('#canvas');
 	canvas.width = w;
 	canvas.height = h;
