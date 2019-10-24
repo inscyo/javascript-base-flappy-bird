@@ -1,5 +1,8 @@
 # pure javasript flappy bird game
 # https://jwenson.github.io/javascript-flappy-bird
+Wahahahahahahahahahahahahahahahaha
+Wahahahahahahahahahahahahahahahaha
+
 Run this game on a server. Ex: localhost:8080/flappy bird/index.html
 
 Don't run this game using file path Ex: file:///C:/Users/user/flappy%bird/index.html it won't work !
