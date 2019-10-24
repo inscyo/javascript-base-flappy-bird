@@ -14,7 +14,7 @@ function setup(){
 	if(!localStorage.getItem('score')){
 		localStorage.setItem('score', '0');
 	}
-	createCanvas(cgw, windowHeight, '#canvas-parent');
+	createCanvas(windowWidth, windowHeight, '#canvas-parent');
 	spritesheet = new Image();
 	spritesheet.src = 'resources/sprites/sprite/sprite.png';
 	for(let i = 0; i < 2; i++){
